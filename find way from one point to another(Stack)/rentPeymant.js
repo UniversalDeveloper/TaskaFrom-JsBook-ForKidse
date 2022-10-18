@@ -1,20 +1,26 @@
 
+ const informationAboutFlat=
+{
+address:"Mozartova 3600/21",
+nameOfLessor:"Jarmil",
+summOfPeyment:11804
+};
+
+let peymentInformation=
+{
+   peyedSumm :11804,
+   dateOfPeyment:'14.10.22'
+}
+
 let rentFlat=
 {
-    "information about flat":
-    {
-    address:"Mozartova 3600/21",
-    nameOfLessor:"Jarmil",
-    summOfPeyment:11804 ,  
-    "Information about peyment":
-    {
-    dateOfPeyment:"11.10.22",
-    priceOfMomthPeyment:11804
-    }    
-    } 
+    informationAboutFlat,
+    peymentInformation
     
 };
-let arrOfAccomodetion=rentFlat["information about flat"]
+let arrOfAccomodetion=[rentFlat]
+
+
 
 /////document.write(arrOfAccomodetion);
 console.log(arrOfAccomodetion);
