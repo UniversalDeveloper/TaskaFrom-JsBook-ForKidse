@@ -16,5 +16,5 @@ let rentFlat=
 };
 let arrOfAccomodetion=rentFlat["information about flat"]
 
-//document.write(arrOfAccomodetion);
+/////document.write(arrOfAccomodetion);
 console.log(arrOfAccomodetion);
