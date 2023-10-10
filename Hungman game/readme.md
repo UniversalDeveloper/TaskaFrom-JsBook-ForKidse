@@ -1,0 +1,1 @@
+Created a fruit guessing game called Hangman using Vanilla JS without frameworks.
